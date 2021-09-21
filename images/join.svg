@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="756" viewBox="0 0 880 756">
+  <g id="join" transform="translate(-68 -203)">
+    <circle id="Ellipse_25" data-name="Ellipse 25" cx="294" cy="294" r="294" transform="translate(351 227)" fill="#445fb5"/>
+    <circle id="Ellipse_26" data-name="Ellipse 26" cx="257" cy="257" r="257" transform="translate(68 301)" fill="#90bf87"/>
+    <rect id="Rectangle_45" data-name="Rectangle 45" width="502.686" height="362.886" rx="9" transform="translate(273.239 362.134)" fill="#414141"/>
+    <rect id="Rectangle_46" data-name="Rectangle 46" width="458.069" height="318.269" rx="5" transform="translate(297.034 382.956)" fill="#445fb5"/>
+    <g id="character" transform="translate(429.979 427.572)">
+      <path id="Union_2" data-name="Union 2" d="M0,264.728V82C0,36.71,34.624,0,77.336,0s77.336,36.71,77.336,82V264.728Z" transform="translate(17.265)" fill="#413f3f"/>
+      <rect id="Rectangle_47" data-name="Rectangle 47" width="59.489" height="68.413" transform="translate(64.856 116.004)" fill="#f5bb8e"/>
+      <path id="Subtraction_5" data-name="Subtraction 5" d="M189.2,107.081H0C2.557,77.8,13.532,50.764,30.9,30.953A94.511,94.511,0,0,1,59.89,8.261a77.056,77.056,0,0,1,69.423,0A94.516,94.516,0,0,1,158.3,30.953c17.369,19.811,28.343,46.846,30.9,76.125v0h0Z" transform="translate(0 166.571)" fill="#0d47a1"/>
+      <ellipse id="Ellipse_18" data-name="Ellipse 18" cx="60.977" cy="65.438" rx="60.977" ry="65.438" transform="translate(35.112 20.821)" fill="#fad1c1"/>
+      <path id="Path_15" data-name="Path 15" d="M-3072.01,874.589h108.242l-8.722-26.464-44.519-15.953-45.9,15.953Z" transform="translate(3113.617 -821.165)" fill="#413f3f"/>
+    </g>
+    <g id="chat_bubble" transform="translate(713.461 203)">
+      <path id="Path_16" data-name="Path 16" d="M113.03,0a113.03,113.03,0,0,1,0,226.06H0V113.03A113.03,113.03,0,0,1,113.03,0Z" transform="translate(0)" fill="#90bf87"/>
+      <circle id="Ellipse_22" data-name="Ellipse 22" cx="15" cy="15" r="15" transform="translate(53.54 104)" fill="#bbdefb"/>
+      <ellipse id="Ellipse_23" data-name="Ellipse 23" cx="14.5" cy="15" rx="14.5" ry="15" transform="translate(98.54 104)" fill="#bbdefb"/>
+      <circle id="Ellipse_24" data-name="Ellipse 24" cx="15" cy="15" r="15" transform="translate(142.54 104)" fill="#bbdefb"/>
+    </g>
+    <g id="chat_bubble-2" data-name="chat_bubble" transform="translate(100.652 564.398)">
+      <path id="Path_16-2" data-name="Path 16" d="M66.172,0a66.172,66.172,0,0,0,0,132.344h66.172V66.172A66.172,66.172,0,0,0,66.172,0Z" fill="#445fb5"/>
+      <ellipse id="Ellipse_22-2" data-name="Ellipse 22" cx="8.76" cy="9.158" rx="8.76" ry="9.158" transform="translate(81.096 60.683)" fill="#bbdefb"/>
+      <ellipse id="Ellipse_23-2" data-name="Ellipse 23" cx="8.76" cy="9.158" rx="8.76" ry="9.158" transform="translate(57.205 60.683)" fill="#bbdefb"/>
+      <ellipse id="Ellipse_24-2" data-name="Ellipse 24" cx="8.76" cy="9.158" rx="8.76" ry="9.158" transform="translate(33.313 60.683)" fill="#bbdefb"/>
+    </g>
+    <ellipse id="Ellipse_27" data-name="Ellipse 27" cx="423.5" cy="19.5" rx="423.5" ry="19.5" transform="translate(101 920)" fill="rgba(87,87,87,0.62)"/>
+  </g>
+</svg>

@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300:700&display=swap');
+*{
+    font-family: 'Ubuntu';
+    scroll-behavior: smooth;
+}
+/* #2196f3 */
+.brand-logo{
+    font-size: 24px;
+}
+.brand-logo img{
+    margin-left:10px;
+    margin-right:10px;
+    max-height: 30px;
+}
+.navbar{
+    background:#2196f3;
+}
+.btn{
+    /* background:rgb(39, 164, 180); */
+}
+.banner img{
+   width:50%;
+}
+#menu-button{
+    display:none;
+}
+.banner{
+    width:100%;
+    margin-top:5vh;
+    padding: 100px;
+    display:flex;
+    align-items: center;
+    height:80vh;
+    color: #2196f3;
+    border-radius:10px;
+    /* box-shadow: 0px 0px 10px rgb(214, 214, 214); */
+}
+.vertical{
+    height:auto;
+    flex-direction: column;
+}
+.vertical img{
+    width:100%;
+}
+.banner h1{
+    font-size:2.5rem;
+    font-weight: 700;
+}
+.banner h3{
+    font-size:20px;
+}
+.banner .btn{
+    /* background:#2196f3; */
+}
+.feature{
+    margin-top:50px;
+    border-radius: 10px;
+    padding: 0px 10px;
+    display: flex;
+    align-items:center;
+    /* background-color: #ff715e10; */
+    color: grey;
+    box-shadow: 0px 0px 10px rgb(214, 214, 214);
+}
+.feature img{
+    width:50%;
+}
+.feature .info{
+    padding: 30px;
+}
+.feature h4{
+    color:#2196f3;
+}
+.feature h5{
+    padding:20px 0px;
+}
+.offerings{
+    margin-top:50px;
+    padding: 2em;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    border-radius: 10px;
+    color: #2196f3;
+    /* background:#ff715e18; */
+}
+.offerings p{
+    text-align: center;
+    color: grey;
+}
+.offers{
+    display: flex;
+    flex-flow: row wrap;
+}
+.offer{
+    flex:auto;
+    width:40%;
+    display:flex;
+    flex-direction: column;
+    color: grey;
+    margin:10px;
+    padding: 20px;
+    border-radius:10px;
+    background:white;
+    box-shadow: 0px 0px 10px rgba(136, 136, 136, 0.226);
+    transition: 0.3s;
+}
+.offer:hover{
+     /* background:#ff715e18; */
+     background: #b5deff;
+}
+.offer .header{
+    display:flex;
+    align-items:center;
+    font-size: 25px;
+}
+.offer .material-icons{
+    font-size:30px;
+}
+.offer-content{
+    list-style-type: circle;
+}
+.offer h6{
+    margin-top: 50px;
+}
+.offer-content ol{
+    list-style-type:disc;
+}
+/* Offer colors*/
+
+.bronze{
+    color:brown;
+}
+.gold{
+    color:gold;
+}
+.silver{
+    color:silver;
+}
+.platinum{
+    color:silver;
+}
+
+/* Booking Page CSS*/
+.booking-form-section{
+    padding:50px;
+    height: 100vh;
+}
+.booking-form-section img{
+    margin: 50px;
+}
+.booking-form-section .input-field{
+    color: grey;
+}
+.booking-form-section .input-field .btn-flat{
+    /* color: #2196f3; */
+}
+.booking-form-section .datepicker-date-display{
+    background:#2196f3;
+}
+.booking-form-section .is-selected{
+    background:#2196f3;
+}
+.booking-form-section .form-data{
+    width: 50%;
+}
+.contact-form{
+    box-shadow: 0px 0px 10px grey;
+    margin-top:5vh;
+    display:flex;
+    align-items: center;
+    height:80vh;
+    border-radius:10px;
+}
+.check-list{
+    background:#2196f3;
+    width:100%;
+    height:100%;
+    color: white;
+    padding: 30px;
+}
+.check-list .list-item {
+    font-size: 1.4rem;
+}
+.check-list p{
+    display:inline-block;
+}
+.contact-form-field{
+    width:100%;
+    padding: 50px;
+}
+@media only screen and (max-width : 992px){
+    #menu-button{
+        display:inline-block;
+    }
+    .banner{
+        padding: 40px;
+        flex-direction: column-reverse;
+        height:auto;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .feature{
+        flex-direction: column;
+    }
+    .feature img{
+        width: 100%;
+    }
+    .offers{
+        align-items: center;
+        flex-direction: column;
+    }
+    .offer{
+        margin:10px auto;
+        width: 100%;
+    }
+    .contact-form{
+        flex-direction: column;
+        height:auto;
+    }
+    .booking-form-section .form-data{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width : 321px) {
+    .booking-form-section.form-data{
+        width: 100%;
+    }
+}
