@@ -32,16 +32,74 @@
     padding-top: 60px;
   }
   .packages{
-    text-align:center;
+    /* text-align:center; */
     display:flex;
     flex-direction: row;
     justify-content: center;
   }
+  
   .package{
-    height: 500px;
-    background-color:green;
+    /* min-width: 400px; */
+    width: auto;
+    color: black;
+    font-weight: bold;
+    /* background:green; */
+    /* From https://css.glass */
+    /* From https://css.glass */
+
+    /* border:solid 1px white; */
     margin:20px;
-    padding: 20px;
+    /* padding: 20px; */
+  }
+  .month{
+    width:100px;
+    height:100px;
+  }
+
+  .circular{
+    height: 150px;
+    width: 150px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .bronze{
+    background-color: rgba(254, 162, 57, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(254, 162, 57, 0.18);
+  }
+
+  .silver{
+    /* From https://css.glass */
+    background: rgba(155, 155, 155, 0.6);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(155, 155, 155, 0.18);
+  }
+
+  .gold{
+
+    background: rgba(255, 212, 94, 0.64);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(255, 212, 94, 0.18);
+  }
+
+  .platinum{
+    background: rgba(155, 155, 155, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(155, 155, 155, 0.18);
   }
   .review{
     margin-top: 50px;
@@ -57,6 +115,16 @@
     color: gold;
   }
 
+  .main.discount-packages{
+    background-color: #fff;
+			color: rgba(255, 255, 255, 0.75);
+			background-attachment: fixed,							fixed;
+			/* background-image: url("images/overlay1.png"), url("../../images/Back_3_masked.png"); */
+      background-image:url("../../images/Back_3_masked.png");
+			background-size: auto,	
+  }
+  
+
       /* Smartphones (landscape) ----------- */
     @media only screen and (min-width : 321px) {
     /* Styles */
@@ -70,4 +138,3 @@
     @media only screen  and (min-width : 1224px) {
     /* Styles */
     }
-  
