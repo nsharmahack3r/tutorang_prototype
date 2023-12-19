@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="assets/css/custom.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+
 	<body class="is-preload">
 
 		<!-- Header -->
@@ -16,18 +17,36 @@
 				<!-- <span class="icon solid major fa-cloud"></span> -->
 				<img style="width:100px" src="images/tutorang_logo.svg">
 				<h1>
-					We Are <strong>Tutorang</strong><br>
+					<!-- We Are <strong>Tutorang</strong><br> -->
+					<strong>Tutorang</strong><br>
+					One on one Tutoring for K1 to K12<br>
 					Determined to Succeed
 				</h1>
 				<ul class="actions special">
 
 					<li><a href="#learn" class="button scrolly">Start Learning</a></li>
-					<li><a href="#lead" class="button scrolly">Discover</a></li>
-					<li><a href="#one" class="button scrolly">Login</a></li>
+					<li><a href="#lead" class="button scrolly">&nbsp;&nbsp;&nbsp;Discover&nbsp;&nbsp;&nbsp;</a></li>
+					<li><a href="login.html" class="button scrolly">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
 
 				</ul>
 			</div>
 		</section>
+
+		<div class="mobile-nav">
+			<div class="title-bar">
+				<a href="#" class="visible-links">Logo</a>
+			</div>
+			<!-- Navigation links (hidden by default) -->
+			<div id="myLinks">
+			  <a href="#news">News</a>
+			  <a href="#contact">Contact</a>
+			  <a href="#about">About</a>
+			</div>
+			<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+			<a href="javascript:void(0);" class="icon" onclick="showNavbarItems()">
+			  <i class="fa fa-bars"></i>
+			</a>
+		  </div>
 
 		<div id="navbar">
 			<a style="padding: 5px;"><img src="images/tutorang_logo.svg" style="height:40px"></a>
@@ -35,7 +54,7 @@
 			<a href="#home" style="font-weight:bold">Give us a Call +91 94943 32449</a>
 			<a href="book-session.html" style="font-weight:bold">Book a session</a>
 			<a href="homework-help.html" style="font-weight:bold">Homework Help/QnA</a>
-			<a href="book-session.html" style="font-weight:bold">Discount Package</a>
+			<a href="pricing.html" style="font-weight:bold">Discount Package</a>
 			<a href="reviews.html" style="font-weight:bold">Reviews</a>
 			<a href="#" style="font-weight:bold">About</a>
 			<!-- <a href="#news">Email Us</a> -->
@@ -79,7 +98,7 @@
 						</ul>
 					</div>
 					<div class="col-6 col-12-medium imp-medium">
-						<iframe width="420" height="315"
+						<iframe width="600" height="350"
 								src="https://tutorang.com/video/welcome.mp4">
 						</iframe>
 						
@@ -87,6 +106,20 @@
 				</div>
 			</div>
 		</section>
+
+		<div style="height:50px"></div>
+		<strong><center><h2>SERVICES OFFERED ACROSS US</h2></center></strong>
+		<section id="one" class="main style1">
+			<div class="container">
+				<div class="row gtr-150 reverse">
+					<span class="image fit"><img src="images/world_map.png" alt="" /></span>
+				</div>
+			</div>
+		</section>
+
+		
+		<div style="height:50px"></div>
+		<strong><center><h2>TUTORANG OFFERINGS</h2></center></strong>
 
 		<section id="one" class="main style1">
 			<div class="container">
@@ -99,7 +132,7 @@
 							Pay-as-you-go! Tutors available 24 X 7. Choose your date / time / duration / subject and let us pick a Tutorang guru that best fit your needs. Tutorang gurus are here to help with your homework / assignments. Let us help remove any doubts and reinforce concepts beore you take your next exam.
 						</p>
 						<ul class="actions">
-							<li><a href="#" class="button primary">More</a></li>
+							<li><a href="book-session.html" class="button primary">More</a></li>
 						</ul>
 					</div>
 					<div class="col-6 col-12-medium imp-medium">
@@ -332,10 +365,6 @@
 		</section>
 
 		<!-- Five -->
-
-		
-
-
 		<!-- Footer -->
 		<section id="footer">
 			<ul class="icons">
@@ -350,7 +379,6 @@
 				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 			</ul>
 		</section>
-
 		<!-- Scripts -->
 		<script src="assets/js/custom.js"></script>
 		<script src="assets/js/jquery.min.js"></script>
@@ -359,6 +387,5 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
-
 	</body>
 </html>

@@ -1,465 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">    
-
-    <title> xBe Free HTML5 Responsive Template  | Template Stock</title>
-
-    <!-- Bootstrap Core CSS -->
-
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-        .glow {
-            font-size: 80px;
-            color: #fff;
-            text-align: center;
-            -webkit-animation: glow 1s ease-in-out infinite alternate;
-            -moz-animation: glow 1s ease-in-out infinite alternate;
-            animation: glow 1s ease-in-out infinite alternate;
-        }
-
-        @-webkit-keyframes glow {
-            from {
-                text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-            }
-
-            to {
-                text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-            }
-        }
-        .neonText {
-            animation: flicker 1.5s infinite alternate;
-            color: #fff;
-        }
-
-        h1 {
-            font-size: 4.2rem;
-        }
-
-        /* Flickering animation */
-        @keyframes flicker {
-
-            0%, 18%, 22%, 25%, 53%, 57%, 100% {
-                text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #0fa, 0 0 80px #0fa, 0 0 90px #0fa, 0 0 100px #0fa, 0 0 150px #0fa;
-            }
-
-            20%, 24%, 55% {
-                text-shadow: none;
-            }
-        }
-
-
-        /* Additional styling */
-
-        h2 {
-            font-size: 1.8rem;
-        }
-
-        .container {
-            margin-top: 20vh;
-        }
-
-        body {
-            font-size: 18px;
-            font-family: "Helvetica Neue", sans-serif;
-            background-color: #010a01;
-        }
-
-        h1, h2 {
-            text-align: center;
-            text-transform: uppercase;
-            font-weight: 400;
-        }
-    </style>
-    <!-- Custom Fonts -->
-
-   <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
-   <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
-   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
-   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
-
-
-    <!-- Custom Animations -->
-
-    <link rel="stylesheet" href="css/animate.css">
-
+    <title>Tutorang</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+   
 </head>
+<body class="is-preload">
 
-<body>
-    <!-- HEADER -->
-    <header id="header">
-        <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid top-nav">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Tutorang</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand logo-top page-scroll" href="#header">
-                        <img class="img-responsive" style="height:45px;"  src="img/logo.svg" alt="Tutorang">
-                    </a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="hidden nav-buttons">
-                            <a href="#page-top"></a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#services">Home</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#team">About Us</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#portfolio">Reviews</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#pricing">Blog</a>
-                        </li>
-                        
-                        <li>
-                            <a class="page-scroll" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
-    </header>
-    <!-- Slider -->
-    <section id="slider">
-      <div id="myCarousel-one" class="carousel slide">
+  <div id="navbar">
+    <a style="padding: 5px;"><img src="images/tutorang_logo.svg" style="height:40px"></a>
+    <a href="index.html" style="font-weight:bold">Tutorang</a>
+    <a href="#home" style="font-weight:bold">Give us a Call +91 94943 32449</a>
+    <a href="book-session.html" style="font-weight:bold">Book a session</a>
+    <a href="homework-help.html" style="font-weight:bold">Homework Help/QnA</a>
+    <a href="pricing.html" style="font-weight:bold">Discount Package</a>
+	<a href="reviews.html" style="font-weight:bold">Reviews</a>
+    <a href="#" style="font-weight:bold">About</a>
+    <!-- <a href="#news">Email Us</a> -->
+  </div>
+      <section class="main style2 discount-packages">
 
-       <ol class="carousel-indicators">
-            <li data-target="#myCarousel-one" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel-one" data-slide-to="1"></li>
-           
-        </ol>
+        <header class="major special">
+					<h2>Discount Packages</h2>
+				</header>
+      <section class="packages container">
 
-            <div class="carousel-inner">
-                <div class="item active"> 
-                
-                    <div class="carousel-caption wrapper">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="intro-text">
-                                    <h1 class="intro-lead-in animated bounceInLeft">We Are Tutorang</h1>
-                                    <h2 class="intro-heading animated bounceInRight">Discount Packages</h2>
-                                    <p class="intro-paragraph animated bounceInRight">Student Pocket Friendly </p>
-                                </div>
-                                <a href="#services" class="page-scroll btn btn-xl slider-button animated bounceInUp">Discount </a>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="img/backgrounds/bg1.jpg" alt="slider-image"/>
-                
-                </div>
-                <div class="item">
-                    <div class="carousel-caption wrapper">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="intro-text">
-                                    <h1 class="intro-lead-in animated bounceInLeft">We Are Tutorang</h1>
-                                    <h2 class="intro-heading animated bounceInRight">Discount Packages</h2>
-                                    <p class="intro-paragraph animated bounceInRight">Student Pocket Friendly </p>
-                                </div>
-                                <a href="#services" class="page-scroll btn btn-xl slider-button animated bounceInUp ">Discount</a>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="img/backgrounds/bg2.jpg " style="width:100%;" alt="slider-image"/>
-                </div>
-                    <!-- Controls -->
-                    <a class="myCarousel-one-left" href="#myCarousel-one" data-slide="prev">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                    <a class="myCarousel-one-right" href="#myCarousel-one" data-slide="next">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-            </div>
+        <div class="package">
+          <h3 style="color: rgb(70, 105, 182);">Bronze</h3>
+          <img class="month" src="images/1_month.png">
+          <a href="#" class="button" style="background-color: rgb(254, 162, 57);">Book Now</a>
+          <h4 style="color: rgb(70, 105, 182);">Basic</h4>
+          <ul>
+            <li>4 sessions (minimum 1-hour and 1 session per week)</li>
+            <li>One-on-one tutor to student session</li>
+            <li>Tailored to the needs of the student</li>
+            <li>Homework assistance</li>
+          </ul>
+          <h4 style="color: rgb(70, 105, 182);">Deluxe</h4>
+          <ul>
+            <li>8 sessions (minimum 1-hour and 2 sessions per week)</li>
+            <li>One-on-one tutor to student session</li>
+            <li>Tailored to the needs of the student</li>
+            <li>Homework and project assistance</li>
+          </ul>
         </div>
-    </section>
 
-    <!-- Services Section -->
-    <section id="services">
-        <div class="container-fluid wrapper">
-            <div class="row " style="width:stretch;">
-                <div class="col-lg-12 text-left">
-                    <h1 class="section-heading neonText">Discount </h1>
-                     
-                </div>
-            </div>
-            <section id="pricing" >
-                <div class="container-fluid wrapper style="width:50px;"">
-                    <div class="row">
-                        <div class="col-lg-12 text-left">
-                            <h2 class="section-heading neonText" st>Packages</h2>
-                            <h3 class="section-subheading"></h3>
-                        </div>
-                        <div >
-                        <div class="col-sm-4" style="background-color: #CD7F32;">
-                            <div class="pricing text-center ">
-                                <div class="pricing-top-box">
-                                    <h3 class="pricing-title glow" style="font-size:20px;">
-                                        Book Now!<br />
-                                        Bronze
-                                    </h3>
-                                    <h4 class="price">1 Month</h4>
-                                </div>
-                                <ul>
-                                    <p style="color: #8C7853">
-                                        <ul>
-                                            <li style="font-size:14px;" ><strong>BASIC  PACKAGE</strong></li>
-                                            <li style="font-size:14px;">4 sessions (minimum 1-hour and 1 session per week)</li>
-                                            <li style="font-size:14px;">One-on-one tutor to student session</li>
-                                            <li style="font-size:14px;">Tailored to the needs of the student</li>
-                                            <li style="font-size:14px;">Homework assistance</li>
-                                        </ul>
-                                        <strong>Deluxe Package</strong><br />
-                                        <ul>
-                                            <li>8 sessions (minimum 1-hour and 2 sessions per week)</li>
-                                            <li>One-on-one tutor to student session</li>
-                                            <li>Tailored to the needs of the student</li>
-                                            <li>Homework and project assistance</li>
-                                        </ul>
-                                    </p>
-                                </ul>
-                                <br />
-                                <a href="https://tutorang.com/StudentPackage.aspx?mt=bronze" class="btn btn-send">More</a>
-                            </div>
-                        </div>
-                            </div>
-
-                        <div >
-                        <div class="col-sm-4 " style="background-color: #C0C0C0;">
-                            <div class="pricing text-center ">
-                                <div class="pricing-top-box">
-                                    <h3 class="pricing-title glow" style="font-size:20px;">
-                                        Book Now!<br />
-                                        Silver
-                                    </h3>
-                                    <h4 class="price">3 Month</h4>
-                                </div>
-                                <ul>
-                                    <p style="color: #8C7853">
-                                        <ul>
-                                            <li style="font-size:14px; " ><strong>BASIC  PACKAGE</strong></li>
-                                            
-                                                <li style="font-size:14px; " >24 sessions (minimum 1-hour and 2 sessions per week)</li>
-                                                <li style="font-size:14px; " >One-on-one tutor to student session</li>
-                                                <li style="font-size:14px; " >Provide class notes / assignments</li>
-                                                <li style="font-size:14px; " >Follows a set curriculum</li>
-                                            </ul>
-                                        
-                                        <strong> Deluxe Package</strong><br />
-                                                                        <ul>
-                                                                            <li font-size:14px;>Includes all features of Basic Package</li>
-                                                                             <li font-size:14px;>Provide study material</li>
-                                                                            <li font-size:14px;>Tailored to the needs of the student</li>
-                                                                            <li font-size:14px;>Tailored to sync with the school</li>
-                                                                            <li font-size:14px;>Includes homework and project assistance</li>
-                                                                        </ul>
-                                    </p>
-                                </ul>
-                                <br />
-                                <a href="https://tutorang.com/StudentPackage.aspx?mt=silver" class="btn btn-send"> More</a>
-                            </div>
-                        </div>
-                            </div>
-                        <div class="col-sm-4" style="background-color: #FFD700;">
-                            <div class="pricing text-center">
-                                <div class="pricing-top-box">
-                                    <h3 class="pricing-title glow" style="font-size:20px;">
-                                        Book Now!<br />
-                                        Gold
-                                    </h3>
-                                    <h4 class="price">6 Months</h4>
-                                </div>
-                                <ul>
-                                    <p style="color: #8C7853">
-                                        <ul>
-                                            <li style="font-size:14px; "><strong>BASIC  PACKAGE</strong></li>
-
-                                            <li style="font-size:14px; ">48 sessions (minimum 1-hour and 2 sessions per week)</li>
-                                            <li style="font-size:14px; ">One-on-one tutor to student session</li>
-                                            <li style="font-size:14px; ">Provide class notes / assignments</li>
-                                            <li style="font-size:14px; ">Follows a set curriculum</li>
-                                            <li style="font-size:14px; ">Includes practical application, quiz, and real life examples</li>
-                                        </ul>
-
-                                        <strong> Deluxe Package</strong><br />
-                                                                        <ul>
-                                                                            <li style="font-size:14px; ">Includes all features of Basic Package</li>
-                                                                            <li style="font-size:14px; ">Provide study material</li>
-                                                                            <li style="font-size:14px; ">Tailored to the needs of the student</li>
-                                                                            <li style="font-size:14px; ">Tailored to sync with the school</li>
-                                                                            <li style="font-size:14px; ">Includes homework and project assistance</li>
-                                                                            <li style="font-size:14px; ">Includes mock tests</li>
-                                                                        </ul>
-                                    </p>
-                                </ul>
-                                <a href="https://tutorang.com/StudentPackage.aspx?mt=gold" class="btn btn-send">More</a>
-                            </div>
-                        </div>
-                        
-                        <h1 ></h1>
-                        <div style="padding-top:250px; padding-right:100px;">
-                            <div class="col-sm-4" style="background-color: #E5E4E2;">
-                                <div class="pricing text-center" style="">
-                                    <div class="pricing-top-box ">
-                                        <h3 class="pricing-title glow" style="font-size:20px;">
-                                            Book Now!<br />
-                                            Platinum
-                                        </h3>
-                                        <h4 class="price">12 Months</h4>
-                                    </div>
-                                    <ul>
-                                        <p style="color: #8C7853">
-                                            <ul>
-                                                <li style="font-size:14px; "><strong>BASIC  PACKAGE</strong></li>
-                                                <li style="font-size:14px;">80 sessions (minimum 1-hour and 2 sessions per week)</li>
-                                                <li style="font-size:14px;">One-on-one tutor to student session</li>
-                                                <li style="font-size:14px;">Provide class notes / assignments</li>
-                                                <li style="font-size:14px;">Follows a set curriculum</li>
-                                                <li style="font-size:14px;">Includes practical application, quiz, and real life examples</li>
-                                                <li style="font-size:14px;">Includes mock tests</li>
-                                            </ul>
-                                            <strong>Deluxe Package</strong><br />
-                                                                           <ul>
-                                                                               <li style="font-size:14px;" >Includes all features of Basic Package</li>
-                                                                               <li style="font-size:14px;">Provide study material</li>
-                                                                               <li style="font-size:14px;">Tailored to the needs of the student</li>
-                                                                               <li style="font-size:14px;">Tailored to sync with the school</li>
-                                                                               <li style="font-size:14px;">Includes homework and project assistance</li>
-                                                                               <li style="font-size:14px;">Includes competitive exams (STAAR/SAT/ACT etc. as is relevant) sample questions</li>
-                                                                           </ul>
-                                        </p>
-                                    </ul>
-                                    <br />
-
-                                    <a href="https://tutorang.com/StudentPackage.aspx?mt=platinum" class="btn btn-send">More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-            </div>
-        
-    </section>
-  
-    <footer>
-        <div class="container-fluid wrapper">
-            <div class="col-lg-0 footer-info">
-                <a class="footer-logo" href="#header">
-                    <img class="img-responsive" src="img/logo.svg" alt="logo-footer">
-                </a>
-                <p class="footer-text" style="font-size:100px; float:right;padding-top:150px;">TUTORANG </p>
-            </div>
-            <div class="col-sm-6 col-md-12 social-icons-footer">
-                <ul class="list-inline social-buttons">
-                    <li><a href="#"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-behance"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-pinterest"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-google"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-12 copyright-bottom">
-                <span class="copyright"> <a href="https://tutorang.com/ContactUs.aspx" >Thanks for Visiting</a> </span>
-            </div>
+        <div class="package">
+          <h3 style="color: rgb(70, 105, 182);">Silver</h3>
+          <img class="month" src="images/3_month.png">
+          <a href="#" class="button" style="background-color:rgba(155, 155, 155, 0.6);">Book Now</a>
+          <h4 style="color: rgb(70, 105, 182);">Basic</h4>
+          <ul>
+            <li>24 sessions (minimum 1-hour and 2 sessions per week)</li>
+            <li>One-on-one tutor to student session</li>
+            <li>Provide class notes / assignments</li>
+            <li>Follows a set curriculum</li>
+        </ul>
+          <h4 style="color: rgb(70, 105, 182);">Deluxe</h4>
+          <ul>
+            <li>Includes all features of Basic Package</li>
+            <li>Provide study material</li>
+            <li>Tailored to the needs of the student</li>
+            <li>Tailored to sync with the school</li>
+            <li>Includes homework and project assistance</li>
+        </ul>
         </div>
-    </footer>
-    <!-- Scroll-up -->
-    
-    <div id="theme-settings">
-        <div id="settings-button">
-        </div>
-        <div class="color">
-            <span class="settings-title">Theme color selector</span>
-            <ul class="gradients">
-                <li>
-                    <div class="gradient1">
-                    </div>
-                </li>
-                <li>
-                    <div class="gradient2">
-                    </div>
-                </li>
-                <li>
-                    <div class="gradient3">
-                    </div>
-                </li>
-                <li>
-                    <div class="gradient4">
-                    </div>
-                </li>
-                <li>
-                    <div class="gradient5">
-                    </div>
-                </li>
-                <li>
-                    <div class="gradient6">
-                    </div>
-                </li>
-                <li>
-                    <div class="gradient7">
-                    </div>
-                </li>
-                <li>
-                    <div class="gradient8">
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-    <!-- Portfolio Modal 1 -->
-    
-    <!-- Portfolio Modal 2 -->
-    
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Color Settings script -->
-    <script src="js/settings-script.js"></script>
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    
-    <!-- SmoothScroll script -->
-    <script src="js/smoothscroll.js"></script>
-    <!-- Custom Theme JavaScript -->
-    <script src="js/xBe.js"></script>
-    <!-- Isotope -->
-    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-    <!-- Google Map -->
-    <script src="http://maps.googleapis.com/maps/api/js?extension=.js&output=embed"></script>
-    <!-- Footer Reveal scirt -->
-    <script src="js/footer-reveal.js"></script>
 
+        <div class="package">
+          <h3 style="color: rgb(70, 105, 182);">Gold</h3>
+          <img  class="month" src="images/6_month.png">
+          <a href="#" class="button" style="background-color: rgba(255, 222, 42, 1)">Book Now</a>
+          <h4 style="color: rgb(70, 105, 182);">Basic</h4>
+          <ul>
+            <li>48 sessions (minimum 1-hour and 2 sessions per week)</li>
+            <li>One-on-one tutor to student session</li>
+            <li>Provide class notes / assignments</li>
+            <li>Follows a set curriculum</li>
+            <li>Includes practical application, quiz, and real life examples</li>
+        </ul>
+        <h4 style="color: rgb(70, 105, 182);">Deluxe</h4>
+          <ul>
+            <li>Includes all features of Basic Package</li>
+            <li>Provide study material</li>
+            <li>Tailored to the needs of the student</li>
+            <li>Tailored to sync with the school</li>
+            <li>Includes homework and project assistance</li>
+            <li>Includes mock tests</li>
+        </ul>
+        </div>
+
+        <div class="package">
+          <h3 style="color: rgb(70, 105, 182);">Platinum</h3>
+          <img  class="month" src="images/12_month.png">
+          <a href="#" class="button" style="background-color: rgba(155, 155, 155, 0.3);">Book Now</a>
+          <h4 style="color: rgb(70, 105, 182);">Basic</h4>
+          <ul>
+            <li>80 sessions (minimum 1-hour and 2 sessions per week)</li>
+            <li>One-on-one tutor to student session</li>
+            <li>Provide class notes / assignments</li>
+            <li>Follows a set curriculum</li>
+            <li>Includes practical application, quiz, and real life examples</li>
+            <li>Includes mock tests</li>
+        </ul>
+        <h4 style="color: rgb(70, 105, 182);">Deluxe</h4>
+          <ul>
+            <li>Includes all features of Basic Package</li>
+            <li>Provide study material</li>
+            <li>Tailored to the needs of the student</li>
+            <li>Tailored to sync with the school</li>
+            <li>Includes homework and project assistance</li>
+            <li>Includes competitive exams (STAAR/SAT/ACT etc.<br> as is relevant) sample questions<</li>
+        </ul>
+        </div>
+
+      </section>
+      </section>
+
+    <script src="assets/js/custom.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 </body>
-
 </html>

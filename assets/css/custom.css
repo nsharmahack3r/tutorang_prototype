@@ -32,37 +32,192 @@
     padding-top: 60px;
   }
   .packages{
-    text-align:center;
+    /* text-align:center; */
     display:flex;
     flex-direction: row;
     justify-content: center;
   }
+  
   .package{
-    height: 500px;
-    background-color:green;
+    /* min-width: 400px; */
+    width: auto;
+    color: black;
+    font-weight: bold;
+    /* background:green; */
+    /* From https://css.glass */
+    /* From https://css.glass */
+
+    /* border:solid 1px white; */
     margin:20px;
-    padding: 20px;
+    /* padding: 20px; */
+  }
+  .month{
+    width:100px;
+    height:100px;
+  }
+
+  .circular{
+    height: 150px;
+    width: 150px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .bronze{
+    background-color: rgba(254, 162, 57, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(254, 162, 57, 0.18);
+  }
+
+  .silver{
+    /* From https://css.glass */
+    background: rgba(155, 155, 155, 0.6);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(155, 155, 155, 0.18);
+  }
+
+  .gold{
+
+    background: rgba(255, 212, 94, 0.64);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(255, 212, 94, 0.18);
+  }
+
+  .platinum{
+    background: rgba(155, 155, 155, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(155, 155, 155, 0.18);
   }
   .review{
     margin-top: 50px;
     padding: 20px 50px 10px 50px;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    background-color:rgba(255,255,255,0.8);
+    color:rgba(0, 0, 0, 0.8);
+  }
+  .review h4 {
+    color:rgba(0, 0, 0, 0.8);
   }
   .review-star{
     color: gold;
   }
 
+  .main.discount-packages{
+    background-color: #fff;
+			color: rgba(255, 255, 255, 0.75);
+			background-attachment: fixed,							fixed;
+			/* background-image: url("images/overlay1.png"), url("../../images/Back_3_masked.png"); */
+      background-image:url("../../images/Back_3_masked.png");
+			background-size: auto,	
+  }
+
+  .mobile-nav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+
+  .mobile-nav .title-bar{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color:rgb(70, 105, 182);
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .mobile-nav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .mobile-nav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .mobile-nav .visible-links{
+    padding: 0;
+    margin:0;
+  }
+  
+  /* Style the hamburger menu */
+  .mobile-nav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .mobile-nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .mobile-nav .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .raised{
+    /* margin: 50px; */
+  }
+  .invoice{
+    background-image: url('/images/Back_3_masked.png');
+    padding: 70px;
+  }
+
+  .header.major::after{
+    background:white;
+  }
+
       /* Smartphones (landscape) ----------- */
     @media only screen and (min-width : 321px) {
+      #navbar{
+        display:none;
+      }
+
+      .invoice{
+        background-image: url('/images/Back_3_masked.png');
+        padding: 10px;
+      }
     /* Styles */
     }
      
     /* iPads (portrait and landscape) ----------- */
     @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     /* Styles */
+      #navbar{
+        display:none;
+      }
     }
     /* Desktops and laptops ----------- */
     @media only screen  and (min-width : 1224px) {
+      #navbar{
+        display:block;
+      }
+      .mobile-nav{
+        display:none;
+      }
+    
     /* Styles */
     }
-  
